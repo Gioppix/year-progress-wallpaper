@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>Label</key>
+    <string>org.boss.yearprogress</string>
+    <key>OnDemand</key>
+    <false/>
+    <key>RunAtLoad</key>
+    <true/>
+    <key>KeepAlive</key>
+    <true/>
+    <key>ProgramArguments</key>
+    <array>
+      <string>/Applications/yearprogress/bin/year-progress</string>
+    </array>
+    <key>StandardOutPath</key>
+    <string>/tmp/yearprogress.log</string>
+    <key>StandardErrorPath</key>
+    <string>/tmp/yearprogress.error.log</string>
+  </dict>
+</plist>
