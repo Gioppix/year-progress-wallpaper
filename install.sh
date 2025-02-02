@@ -9,8 +9,8 @@ set -e
 
 cargo build --release
 
-mkdir -p /Applications/yearprogress
-cp ./target/release/year-progress /Applications/yearprogress/bin
+mkdir -p /Applications/yearprogress/bin/
+cp ./target/release/year-progress /Applications/yearprogress/bin/year-progress
 
 LAUNCH_AGENT_PATH="/Library/LaunchAgents/org.boss.yearprogress.plist"
 

@@ -15,8 +15,8 @@
       <string>/Applications/yearprogress/bin/year-progress</string>
     </array>
     <key>StandardOutPath</key>
-    <string>/tmp/yearprogress.log</string>
+    <string>/tmp/year-progress.log</string>
     <key>StandardErrorPath</key>
-    <string>/tmp/yearprogress.error.log</string>
+    <string>/tmp/year-progress.error.log</string>
   </dict>
 </plist>

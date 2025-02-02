@@ -17,7 +17,7 @@ pub fn set_from_path(path: &str) -> Result<(), std::io::Error> {
     Ok(())
 }
 
-const BASE_PATH: &str = "/tmp/wallpaper/";
+const BASE_PATH: &str = "/var/tmp/yearprogress/wallpaper/";
 
 static FONT: LazyLock<FontRef> = LazyLock::new(|| {
     FontRef::try_from_slice(include_bytes!("../assets/ZedPlexMono-Regular.ttf")).unwrap()
