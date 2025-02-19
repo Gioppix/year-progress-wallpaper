@@ -7,10 +7,11 @@ fi
 
 set -e
 
-cargo build --release
+mkdir -p target
+swiftc -O src/main.swift -o target/year-progress
 
 mkdir -p /Applications/yearprogress/bin/
-cp ./target/release/year-progress /Applications/yearprogress/bin/year-progress
+cp ./target/year-progress /Applications/yearprogress/bin/year-progress
 
 LAUNCH_AGENT_PATH="/Library/LaunchAgents/org.boss.yearprogress.plist"
 
